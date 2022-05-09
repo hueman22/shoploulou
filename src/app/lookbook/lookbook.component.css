@@ -1,0 +1,42 @@
+.container{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+.col-sm-6{
+  text-align: center;
+}
+.header{
+  color: #6a557b;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 30px;
+  font-style: italic;
+  text-align: center;
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+.col-sm-6 h1 {
+  color: #6a557b;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 20px;
+  font-style: italic;
+
+}
+.col-sm-6 p{
+  color: #6a557b;
+  font-family: "Oswald", sans-serif !important;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+img{
+  width: 555px;
+  height: 690px;
+  border-radius:5px;
+
+}
+
+

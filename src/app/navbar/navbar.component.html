@@ -1,0 +1,21 @@
+
+<div class="navbarlou">
+<mat-toolbar class="nav1" color="primary">
+  <a mat-button routerLink="/" >L O U L O U <br > <span><img style="width:40px; height:40px" src="https://www.pikpng.com/pngl/b/114-1141058_lipstick-kiss-png.png"></span>SEOUL </a>
+</mat-toolbar>
+<mat-toolbar class="nav2" color="primary">
+  <a mat-button routerLink="/shopall" >SHOP ALL</a>
+  <a mat-button routerLink="loulou">LOULOU X SHYN</a>
+  <a mat-button routerLink="/lookbook">LOOKBOOK</a>
+  <a mat-button routerLink="/commnunity">COMMNUNITY</a>
+  <a mat-button routerLink="/contact">CONTACT US</a>
+  <button mat-button [matMenuTriggerFor]="aboveMenu"><mat-icon>add_shopping_cart</mat-icon></button>
+  <mat-menu #aboveMenu="matMenu" yPosition="above">
+  <button mat-menu-item routerLink="/signin">Đăng nhập</button>
+  <button mat-menu-item routerLink="/register">Đăng ký</button>
+  <button mat-menu-item routerLink="/cart">Giỏ hàng<mat-icon>add_shopping_cart</mat-icon></button>
+  </mat-menu>
+
+</mat-toolbar>
+</div>
+

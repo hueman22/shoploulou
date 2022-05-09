@@ -1,0 +1,79 @@
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+h1  , label {
+  color: #6a557b;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif !important;
+}
+p {
+  color: #6a557b;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif !important;
+}
+
+button[type=submit]{
+  width: 500px;
+  color: #fff;
+  background-color: #6a557b;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 500px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #6a557b;
+  font-family: "Oswald", sans-serif !important;
+  text-decoration: none
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+img{
+  width:300px;
+  height:400px;
+}

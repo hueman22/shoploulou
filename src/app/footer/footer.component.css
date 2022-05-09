@@ -1,0 +1,40 @@
+
+
+.section_footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+    height: 370px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+h1{
+  color: #fff;
+  font-size: 17px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+}
+p{
+  color: #fff;
+  max-width: 480px;
+  font-weight: 500;
+  font-size: 13px;
+}
+input{
+  background-color: #000000;
+  height: 50px;
+  width:380px;
+}
+input:hover{
+  background-color: #fff0f0;
+}
+i{
+  color: #fff;
+  margin-right:15px;
+  font-size: 27px;
+  float: left;
+}
+
+
